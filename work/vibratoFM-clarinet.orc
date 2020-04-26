@@ -1,0 +1,1 @@
+1   VibratoFM	ADSR_A=0.02; ADSR_D=0.05; ADSR_S=1; ADSR_R=0.05; N=40;	N1=900;	N2=600;	I=4;

@@ -1,5 +1,9 @@
 #include <iostream>
 #include "instrument_dumb.h"
+#include "seno.h"
+#include "vibratoFM.h"
+#include "tablaext.h"
+#include "samplers.h"
 
 /*
   For each new instrument:
@@ -15,9 +19,16 @@ namespace upc {
 			      const string &parameters) {
     Instrument * pInst = 0;
     //    cout << name << ": " << parameters << endl;
-    if (name == "InstrumentDumb") {
+    if (name == "InstrumentDumb")
       pInst = (Instrument *) new InstrumentDumb(parameters);
-    }
+    if (name == "Seno")
+      pInst = (Instrument *) new Seno(parameters);
+    if (name == "VibratoFM")
+      pInst = (Instrument *) new VibratoFM(parameters);
+    if (name == "TablaExt")
+      pInst = (Instrument *) new TablaExt(parameters);
+    if (name == "Samplers")
+      pInst = (Instrument *) new Samplers(parameters);
     return pInst;
   }
 }

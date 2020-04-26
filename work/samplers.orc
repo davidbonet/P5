@@ -1,0 +1,1 @@
+1	Samplers       ADSR_A=0.6; ADSR_D=0.02; ADSR_S=0.2; ADSR_R=0.05; file=work/samples/girl.wav

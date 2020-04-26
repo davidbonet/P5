@@ -1,0 +1,2 @@
+1       TablaExt        ADSR_A=0.05; ADSR_D=0.05; ADSR_S=0.5; ADSR_R=0.02;      N=40;   file=work/tablas_externas/piano.wav;
+2       VibratoFM	ADSR_A=0.02; ADSR_D=0.02; ADSR_S=0.95; ADSR_R=0.02; N=40;	N1=5;	N2=1;	I=1.5;
